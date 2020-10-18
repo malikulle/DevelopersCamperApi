@@ -10,7 +10,7 @@ Rename "config/config.env.env" to "config/config.env" and update the values/sett
 - Create MongoDb Cluster and Get Connection MongoDb URI
 - Set environment variables in `config.env` under `./config`
   * Set `MONGO_URI = <YOUR_MONGO_URI>`
-  * Set `JWT_SECRET_KEY = <JWT_EXPIRE>`
+  * Set `JWT_SECRET_KEY = <YOUR_SECRET_KEY>`
 - `npm run dev` to start the local server.
 
 
